@@ -1,0 +1,7 @@
+export type WordUpdateInput = {
+  cluster?: string | null;
+  isLearned?: boolean | null;
+  meaning?: string | null;
+  mnemonic?: string | null;
+  text?: string | null;
+};
